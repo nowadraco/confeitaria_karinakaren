@@ -1,36 +1,7 @@
-/* Estilos para o cabeçalho */
 header {
   background-color: #d373f0;
   padding: 20px;
   text-align: center;
-}
-
-/* Estilos para a logo */
-.logo {
-  text-align: center;
-}
-
-.logo img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Estilos para o menu de navegação */
-.menu-items {
-  display: flex;
-  justify-content: center;
-  padding: 10px 0;
-}
-
-.menu-items a {
-  text-decoration: none;
-  color: #333;
-  margin: 0 20px;
-  font-size: 35px;
-}
-
-.menu-items a:hover {
-  color: #d80c0c;
 }
 
 header nav {
@@ -43,20 +14,30 @@ header nav a {
   margin: 0 10px;
 }
 
-section {
-  padding: 10px 0;
+.logo {
   text-align: center;
 }
 
-section h2 {
-  font-size: 28px;
-  color: #333;
+.logo img {
+  max-width: 100%;
+  height: auto;
 }
 
-section p {
-  font-size: 16px;
-  color: #666;
-  margin-bottom: 20px;
+.menu-itens {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.menu-itens a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 20px;
+  font-size: 35px;
+}
+
+.menu-itens a:hover {
+  color: #d80c0c;
 }
 
 .hamburger {
@@ -126,37 +107,33 @@ section p {
   color: #333;
 }
 
-.menu-container {
+.cardapio-container {
   padding-top: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
-.menu-item {
+.cardapio-item {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
 
-.menu-item-content {
-  text-align: center;
-}
-
-.menu-item h3 {
+.cardapio-item h3 {
   font-size: 24px;
   color: #333;
 }
 
-.menu-item img {
+.cardapio-item img {
   max-width: 250px; /* Reduzindo para 250px */
   display: block;
   margin: 0 auto;
   border-radius: 5px;
 }
 
-.menu-item p {
+.cardapio-item p {
   font-size: 16px;
   color: #666;
   margin-top: 10px;
@@ -166,6 +143,22 @@ section p {
   text-decoration: none;
   color: #333;
   margin: 0 10px;
+}
+
+section {
+  padding: 10px 0;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+section p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
 }
 
 footer {
