@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const menuToggle = document.querySelector('.menu-toggle');
-    const menuItems = document.querySelector('.menu-items');
+    const menuItems = document.querySelector('.menu-itens');
   
     menuToggle.addEventListener('click', function() {
       // Alternar a classe 'active' nos itens do menu
@@ -10,4 +10,3 @@ document.addEventListener("DOMContentLoaded", function() {
       menuToggle.querySelector('.hamburger').classList.toggle('close');
     });
   });
-  
