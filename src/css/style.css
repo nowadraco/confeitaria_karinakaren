@@ -5,7 +5,10 @@ header {
 }
 
 header nav {
-  margin-top: 20px;
+  background-color: #d373f0;
+  border: 1px solid #333;
+  margin-top: 10px;
+  border-radius: 15px;
 }
 
 header nav a {
@@ -33,17 +36,22 @@ header nav a {
   text-decoration: none;
   color: #333;
   margin: 0 20px;
-  font-size: 35px;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  border-radius: 25px;
+  transition: background-color 0.3s, color 0.3s; 
 }
 
 .menu-itens a:hover {
-  color: #d80c0c;
+  background-color: #333; 
+  color: #fff; 
 }
 
 .hamburger {
   width: 45px;
   height: 5px;
-  background-color: #d80c0c;
+  background-color: #333;
   margin: 5px 0;
   transition: transform 0.3s ease;
   position: relative;
@@ -91,7 +99,7 @@ header nav a {
 
 #cardapio {
   background-color: #f9f9f9;
-  padding: 50px 0;
+  padding: 50px 20px;
   text-align: center;
   position: relative;
 }
@@ -127,7 +135,7 @@ header nav a {
 }
 
 .cardapio-item img {
-  max-width: 250px; /* Reduzindo para 250px */
+  max-width: 250px;
   display: block;
   margin: 0 auto;
   border-radius: 5px;
@@ -146,7 +154,6 @@ header nav a {
 }
 
 section {
-  padding: 10px 0;
   text-align: center;
 }
 

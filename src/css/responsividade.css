@@ -37,4 +37,13 @@
   .cardapio-container {
     grid-template-columns: 1fr;
   }
+
+  .cardapio-item {
+    border-radius: 20px;
+    margin: 15px 50px;
+  }
+
+  .cardapio-item img {
+    max-height: 300px;
+  }
 }
