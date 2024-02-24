@@ -17,12 +17,12 @@
     padding: 10px;
   }
 
-  .menu-items {
+  .menu-itens {
     display: none;
     flex-direction: column;
   }
 
-  .menu-items.active {
+  .menu-itens.active {
     display: flex;
     top: 100%;
     left: 0;
@@ -34,7 +34,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .menu-container {
+  .cardapio-container {
     grid-template-columns: 1fr;
   }
 }
