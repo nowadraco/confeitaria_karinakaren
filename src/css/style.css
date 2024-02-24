@@ -1,222 +1,222 @@
 html, body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #d373f0;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .logo {
-    text-align: center; /* Centraliza a logo horizontalmente */
-  }
-  
-  .logo img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
-    height: auto; /* Mantém a proporção da imagem */
-  }
-  
-  /* Estilos para telas maiores que 768 pixels de largura */
-  @media screen and (min-width: 769px) {
-    .logo img {
-      max-height: 650px; /* Define a largura máxima para telas maiores */
-    }
-  }
-  
-  /* Estilos para telas menores que 768 pixels de largura (dispositivos móveis) */
-  @media screen and (max-width: 768px) {
-    .logo img {
-      max-width: 350px; /* Define a largura máxima para telas menores */
-    }
-  }  
-
-  .menu-items {
-    display: flex; /* Mostra os itens do menu em linha */
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    padding: 10px 0; /* Adiciona um espaçamento interno superior e inferior */
-  }
-  
-  .menu-items a {
-    text-decoration: none; /* Remove sublinhado dos links */
-    color: #333; /* Cor dos links */
-    margin: 0 20px; /* Margem entre os itens do menu */
-    font-size: 35px; /* Tamanho da fonte */
-  }
-  
-  .menu-items a:hover {
-    color: #d80c0c; /* Cor dos links ao passar o mouse por cima */
-  }
-  
-  
-  header nav {
-    margin-top: 20px;
-  }
-  
-  header nav a {
-    text-decoration: none;
-    color: #333;
-    margin: 0 10px;
-  }
-  
-  section {
-    padding: 10px 0;
-    text-align: center;
-  }
-  
-  section h2 {
-    font-size: 28px;
-    color: #333;
-  }
-  
-  section p {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 20px;
-  }
-
-  .hamburger {
-    width: 45px;
-    height: 5px;
-    background-color: #d80c0c;
-    margin: 5px 0;
-    transition: transform 0.3s ease;
-    position: relative;
-  }
-  
-  .hamburger::before,
-  .hamburger::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: inherit;
-    transition: transform 0.3s ease;
-  }
-  
-  .hamburger::before {
-    top: -10px;
-  }
-  
-  .hamburger::after {
-    bottom: -10px;
-  }
-  
-  .hamburger.close::before {
-    transform: rotate(45deg) translateY(10px); 
-  }
-  
-  .hamburger.close::after {
-    transform: rotate(-45deg) translateY(-10px); 
-  }
-  
-.menu-toggle {
-  display: none; 
+  margin: 0;
+  padding: 0;
 }
 
+header {
+  background-color: #d373f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  text-align: center; /* Centraliza a logo horizontalmente */
+}
+
+.logo img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilos para telas maiores que 768 pixels de largura */
+@media screen and (min-width: 769px) {
+  .logo img {
+    max-height: 650px; /* Define a largura máxima para telas maiores */
+  }
+}
+
+/* Estilos para telas menores que 768 pixels de largura (dispositivos móveis) */
+@media screen and (max-width: 768px) {
+  .logo img {
+    max-width: 350px; /* Define a largura máxima para telas menores */
+  }
+}  
+
 .menu-items {
-  display: flex;
+  display: flex; /* Mostra os itens do menu em linha */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  padding: 10px 0; /* Adiciona um espaçamento interno superior e inferior */
 }
 
 .menu-items a {
-  margin-right: 20px; 
+  text-decoration: none; /* Remove sublinhado dos links */
+  color: #333; /* Cor dos links */
+  margin: 0 20px; /* Margem entre os itens do menu */
+  font-size: 35px; /* Tamanho da fonte */
+}
+
+.menu-items a:hover {
+  color: #d80c0c; /* Cor dos links ao passar o mouse por cima */
+}
+
+
+header nav {
+  margin-top: 20px;
+}
+
+header nav a {
   text-decoration: none;
   color: #333;
+  margin: 0 10px;
 }
 
-@media screen and (max-width: 767px) {
-  .menu-toggle {
-    display: block; 
-    cursor: pointer;
-    padding: 10px;
-  }
-
-  .menu-items {
-    display: none; 
-    flex-direction: column;
-  }
-
-  .menu-items.active {
-    display: flex;
-    top: 100%;
-    left: 0;
-    border: 1px solid #ddd;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-}
-
-#cardapio {
-  background-color: #f9f9f9;
-  padding: 50px 0;
+section {
+  padding: 10px 0;
   text-align: center;
-  position: relative;
 }
 
-.cardapio-title {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+section h2 {
   font-size: 28px;
   color: #333;
 }
 
+section p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.hamburger {
+  width: 45px;
+  height: 5px;
+  background-color: #d80c0c;
+  margin: 5px 0;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  transition: transform 0.3s ease;
+}
+
+.hamburger::before {
+  top: -10px;
+}
+
+.hamburger::after {
+  bottom: -10px;
+}
+
+.hamburger.close::before {
+  transform: rotate(45deg) translateY(10px); 
+}
+
+.hamburger.close::after {
+  transform: rotate(-45deg) translateY(-10px); 
+}
+
+.menu-toggle {
+display: none; 
+}
+
+.menu-items {
+display: flex;
+}
+
+.menu-items a {
+margin-right: 20px; 
+text-decoration: none;
+color: #333;
+}
+
+@media screen and (max-width: 767px) {
+.menu-toggle {
+  display: block; 
+  cursor: pointer;
+  padding: 10px;
+}
+
+.menu-items {
+  display: none; 
+  flex-direction: column;
+}
+
+.menu-items.active {
+  display: flex;
+  top: 100%;
+  left: 0;
+  border: 1px solid #ddd;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+}
+
+#cardapio {
+background-color: #f9f9f9;
+padding: 50px 0;
+text-align: center;
+position: relative;
+}
+
+.cardapio-title {
+margin-top: 20px;
+margin-bottom: 20px;
+position: absolute;
+top: 0;
+left: 50%;
+transform: translateX(-50%);
+font-size: 28px;
+color: #333;
+}
+
 .menu-container {
-  padding-top: 40px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+padding-top: 40px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
 }
 
 .menu-item {
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+background-color: #fff;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+padding: 20px;
 }
 
 .menu-item-content {
-  text-align: center;
+text-align: center;
 }
 
 .menu-item h3 {
-  font-size: 24px;
-  color: #333;
+font-size: 24px;
+color: #333;
 }
 
 .menu-item img {
-  max-width: 250px; /* Reduzindo para 250px */
-  display: block;
-  margin: 0 auto;
-  border-radius: 5px;
+max-width: 250px; /* Reduzindo para 250px */
+display: block;
+margin: 0 auto;
+border-radius: 5px;
 }
 
 .menu-item p {
-  font-size: 16px;
-  color: #666;
-  margin-top: 10px;
+font-size: 16px;
+color: #666;
+margin-top: 10px;
 }
 
 /* Estilos para dispositivos móveis (até 767px de largura) */
 @media screen and (max-width: 767px) {
-  .menu-container {
-    grid-template-columns: 1fr;
-  }
+.menu-container {
+  grid-template-columns: 1fr;
 }
-  .contato p a {
-    text-decoration: none;
-    color: #333;
-    margin: 0 10px;
-  }
+}
+.contato p a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+}
 
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
