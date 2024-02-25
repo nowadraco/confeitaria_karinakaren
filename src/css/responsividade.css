@@ -3,9 +3,7 @@
     max-width: auto;
     
   }
-}
 
-@media screen and (max-width: 767px) {
   .menu-toggle {
     display: block;
     cursor: pointer;
@@ -29,9 +27,7 @@
   .menu-itens a{
     margin: 10px 20px;
   }
-}
 
-@media screen and (max-width: 767px) {
   .cardapio-container {
     grid-template-columns: 1fr;
   }
@@ -39,6 +35,7 @@
   .cardapio-item {
     border-radius: 20px;
     margin: 10px 15px;
+    width: 300px;
   }
 
   .cardapio-item img {
