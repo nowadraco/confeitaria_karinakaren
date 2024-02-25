@@ -135,9 +135,22 @@ header nav a {
   margin-bottom: 10px;
 }
 
+.cardapio-item .carrosel-bolo{
+  display: flex;
+  overflow-x: auto;
+}
+
+.cardapio-item .carrosel-bolo img {
+  width: 250px;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+  transition: opacity 0.5s ease;
+}
+
 .cardapio-item img {
   width: 250px;
-  border-radius: 5px;
+  border-radius: 20px;
   display: block;
   margin: 0 auto;
 }
