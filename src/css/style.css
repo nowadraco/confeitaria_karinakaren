@@ -117,31 +117,36 @@ header nav a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  justify-items: center;
 }
 
 .cardapio-item {
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  width: 350px;
+  background-color: #f8f8f8; /* Cor de fundo */
+  border: 2px solid #333; /* Borda vermelha */
+  border-radius: 10px; /* Borda arredondada */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  padding: 20px; /* Espaçamento interno */
+  margin-bottom: 20px; /* Espaçamento inferior */
 }
 
 .cardapio-item h3 {
-  font-size: 24px;
-  color: #333;
+  font-size: 24px; /* Tamanho da fonte do título */
+  color: #333; /* Cor do texto */
+  margin-bottom: 10px;
 }
 
 .cardapio-item img {
-  max-width: 250px;
+  width: 250px; /* Imagem responsiva */
+  border-radius: 5px; /* Borda arredondada para a imagem */
   display: block;
   margin: 0 auto;
-  border-radius: 5px;
 }
 
 .cardapio-item p {
-  font-size: 16px;
-  color: #666;
-  margin-top: 10px;
+  font-size: 16px; /* Tamanho da fonte do parágrafo */
+  color: black; /* Cor do texto */
+  margin-top: 10px; /* Espaçamento superior */
 }
 
 .contato p a {
