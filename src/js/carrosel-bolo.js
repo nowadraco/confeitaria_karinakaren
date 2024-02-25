@@ -4,13 +4,10 @@ function autoCarousel() {
   let index = 0;
 
   setInterval(() => {
-    imagens[index].style.opacity = 0; // Reduz a opacidade da imagem atual
-    imagens[index].style.display = 'none'; // Oculta a imagem atual
+    imagens[index].style.display = 'none';
     index = (index + 1) % imagens.length;
-    imagens[index].style.display = 'block'; // Exibe a próxima imagem
-    imagens[index].style.opacity = 1; // Aumenta a opacidade da próxima imagem
+    imagens[index].style.display = 'block';
   }, 3000); // Altere o intervalo conforme necessário
 }
 
-// Chamar a função quando a página carrega
 window.addEventListener('load', autoCarousel);

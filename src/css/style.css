@@ -145,7 +145,6 @@ header nav a {
   border-radius: 20px;
   display: block;
   margin: 0 auto;
-  transition: opacity 0.5s ease;
 }
 
 .cardapio-item img {
