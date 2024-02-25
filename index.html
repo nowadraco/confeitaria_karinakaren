@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="./src/css/scrollbar.css">
 </head>
 <body>
-  <div id="resolucaoTela"></div>
   <header>
     <div class="logo">
       <img class="logo-img" src="./src/img/logo.png" alt="Logo do site da Confeitaria Karina Karen, com as iniciais CKK e uma imagem de bolo decorado">
@@ -87,21 +86,5 @@
   <script src="./src/js/main.js"></script>
   <script src="./src/js/menu-hamburger.js"></script>
   <script src="./src/js/troca-logo.js"></script>
-  <script>
-    // Função para exibir a resolução da tela
-    function exibirResolucaoTela() {
-        // Obter a largura e altura da tela
-        var larguraTela = window.innerWidth;
-        var alturaTela = window.innerHeight;
-
-        // Exibir a resolução da tela em um elemento HTML
-        var elementoResolucao = document.getElementById('resolucaoTela');
-        elementoResolucao.textContent = 'Resolução da Tela: ' + larguraTela + 'x' + alturaTela;
-    }
-
-    // Chamar a função quando a página carrega e sempre que a tela é redimensionada
-    window.addEventListener('load', exibirResolucaoTela);
-    window.addEventListener('resize', exibirResolucaoTela);
-</script>
 </body>
 </html>     
