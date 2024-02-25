@@ -17,11 +17,8 @@ header nav a {
   margin: 0 10px;
 }
 
-.logo {
+.logo img{
   text-align: center;
-}
-
-.logo img {
   max-width: 100%;
   height: auto;
 }

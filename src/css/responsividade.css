@@ -1,12 +1,7 @@
-@media screen and (min-width: 769px) {
-  .logo img {
-    max-height: 650px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .logo img {
     max-width: auto;
+    
   }
 }
 
@@ -29,6 +24,10 @@
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
+  }
+
+  .menu-itens a{
+    margin: 10px 20px;
   }
 }
 
