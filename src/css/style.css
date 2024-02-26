@@ -6,7 +6,6 @@ header {
 
 header nav {
   background-color: #d373f0;
-  border: 1px solid #333;
   margin-top: 10px;
   border-radius: 15px;
 }
@@ -153,7 +152,7 @@ header nav a {
   margin-top: 10px;
 }
 
-.instagram-container{
+.instagram-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -172,7 +171,7 @@ header nav a {
   width: 99.375%;
   width: -webkit-calc(100% - 2px);
   width: calc(100% - 2px);
-  margin: 0 auto 20px;
+  margin: 20px;
 }
 
 .instagram-media > div {
@@ -185,7 +184,7 @@ header nav a {
   margin-top: 40px;
   padding: 50.0% 0;
   text-align: center;
-  width: 100%;
+  width: 95%;
 }
 
 .instagram-media > div > div > div {
