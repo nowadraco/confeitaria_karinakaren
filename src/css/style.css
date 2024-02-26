@@ -165,8 +165,8 @@ header nav a {
   border-radius: 10px;
   box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
   margin: 1px;
-  max-width: 400px;
-  min-width: 300px;
+  max-width: 325px;
+  min-width: 250px;
   padding: 20px;
   width: 99.375%;
   width: -webkit-calc(100% - 2px);
