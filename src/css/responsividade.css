@@ -43,6 +43,7 @@
   }
 
   .contato {
+    width: 85%;
     background-color: #f4f4f4;
     padding: 20px;
     border-radius: 10px;
@@ -58,6 +59,7 @@
   }
 
   .sobre {
+    width: 85%;
     background-color: #f4f4f4;
     padding: 20px;
     border-radius: 10px;
