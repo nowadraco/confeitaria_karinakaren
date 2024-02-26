@@ -41,4 +41,35 @@
   .cardapio-item img {
     max-height: 290px;
   }
+
+  .contato {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  .contato h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .contato p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .sobre {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  .sobre h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .sobre p {
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: justify;
+  }
 }
