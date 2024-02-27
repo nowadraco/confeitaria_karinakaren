@@ -1,27 +1,16 @@
 @media screen and (max-width: 768px) {
   .logo img {
     max-width: auto;
-    
   }
-
-  .menu-toggle {
-    display: block;
-    cursor: pointer;
-    padding: 10px;
-  }
-
+  
   .menu-itens {
-    display: none;
-    flex-direction: column;
-  }
-
-  .menu-itens.active {
     display: flex;
     top: 100%;
     left: 0;
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
+    flex-direction: column;
   }
 
   .menu-itens a{
