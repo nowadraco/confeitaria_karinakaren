@@ -1,4 +1,3 @@
-.teste{}
 header {
   background-color: #d373f0;
   padding: 20px;
@@ -32,28 +31,6 @@ header nav {
   border: 2px solid #333;
   border-radius: 25px;
   transition: background-color 0.3s, color 0.3s; 
-}
-.menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.menu-items {
-  display: flex;
-  justify-content: center;
-  padding: 10px 0;
-}
-
-.menu-items a {
-  text-decoration: none;
-  color: #333;
-  margin: 0 20px;
-  font-size: 20px;
-  padding: 10px 20px;
-  border: 2px solid #333;
-  border-radius: 25px;
-  transition: background-color 0.3s, color 0.3s;
 }
 
 .menu-toggle {
