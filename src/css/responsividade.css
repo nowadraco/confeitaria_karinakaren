@@ -1,8 +1,9 @@
 @media screen and (max-width: 1111px) {
   .cardapio-container {
-    grid-template-colums: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media screen and (max-width: 768px) {
   .logo img {
     max-width: auto;
